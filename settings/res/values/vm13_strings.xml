@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2012-2014 NOSP Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- VM13 TWEAKS  -->
+    <string name="header_category">Cryptic Mods</string>
+    <string name="tweaks_title">VM13 Tweaks</string>
+    <string name="keywords_vm13">The Sloth is hear</string>
+
+    <!-- VM13 Statusbar Settings  -->
+    <string name="status_bar_screen_title">Statusbar and Notifications</string>
+    <!-- VM13 Lockscreen Settings  -->
+    <string name="lockscreen_title">LockScreen Mods</string>
+    <!-- VM13 Extra Settings  -->
+    <string name="extras_title">Extras</string>
+    <!-- Navigation Bar -->
+    <string name="navigation_bar_screen_title">Navigation bar</string>
+    <!-- Navigation Bar Height -->
+    <string name="navigation_bar_height">Navigation bar height</string>
+    <string name="navigation_bar_height_48">48dp (default)</string>
+    <string name="navigation_bar_height_44">44dp</string>
+    <string name="navigation_bar_height_40">40dp</string>
+    <string name="navigation_bar_height_36">36dp</string>
+    <string name="navigation_bar_height_32">32dp</string>
+    <string name="navigation_bar_height_28">28dp</string>
+    <string name="navigation_bar_height_24">24dp</string>
+    <string name="navigation_bar_height_20">20dp</string>
+    <string name="navigation_bar_height_0">0dp (hide)</string>
+
+    <!-- Recents panel settings -->
+    <string name="recents_panel_title">Recents panel</string>
+    <string name="recents_panel_settings">Recents panel settings</string>
+    <string name="show_clear_all_recents_button_title">Clear all recents button</string>
+    <string name="show_clear_all_recents_button_summary">Show clear all button on recents panel</string>
+    <string name="recents_clear_all_location_title">Clear all recents location</string>
+    <string name="recents_clear_all_top_right">Top right</string>
+    <string name="recents_clear_all_top_left">Top left</string>
+    <string name="recents_clear_all_top_center">Top center</string>
+    <string name="recents_clear_all_bottom_right">Bottom right</string>
+    <string name="recents_clear_all_bottom_left">Bottom left</string>
+    <string name="recents_clear_all_bottom_center">Bottom center</string>
+    <string name="recents_clear_all_dismiss_all_title">Clear all tasks</string>
+    <string name="recents_clear_all_dismiss_all_summary">Choose whether to dismiss all tasks or ignore the foreground task</string>
+
+    <!-- RAM bar -->
+    <string name="recents_show_membar_title">RAM memory bar</string>
+    <string name="recents_show_membar_summary_on">Available RAM memory bar will be displayed on recents view</string>
+    <string name="recents_show_membar_summary_off">Toggle to display available RAM memory bar on recents view</string>
+
+<string name="general_options_title">General</string>
+
+    <!-- Network traffic -->
+    <string name="network_traffic_title">Network traffic</string>
+    <string name="show_network_traffic_state">Status bar traffic monitor</string>
+    <string name="network_traffic_summary">Enable various network traffic options in statusbar</string>
+    <string name="show_network_traffic_unit">Display unit</string>
+    <string name="show_network_traffic_frequency">Update interval</string>
+    <string name="show_network_traffic_disable">Disabled</string>
+    <string name="show_network_traffic_up">Outgoing</string>
+    <string name="show_network_traffic_down">Incoming</string>
+    <string name="show_network_traffic_all">Outgoing and incoming</string>
+    <string name="show_network_traffic_bit">Bits per second</string>
+    <string name="show_network_traffic_byte">Bytes per second</string>
+    <string name="show_network_traffic_500">500 ms</string>
+    <string name="show_network_traffic_1000">1000 ms</string>
+    <string name="show_network_traffic_1500">1500 ms</string>
+    <string name="show_network_traffic_2000">2000 ms</string>
+    <string name="network_traffic_autohide">Auto hide</string>
+    <string name="network_traffic_autohide_summary">Hide the traffic monitor when there is no activity</string>
+    <string name="network_traffic_autohide_threshold">Inactivity threshold</string>
+
+    <!-- Double tap to launch target -->
+    <string name="dt2l_target_category">Double tap to launch options</string>
+    <string name="dt2l_target_vib_title">Adjust target\'s vibration</string>
+    <string name="dt2l_target_vib_summary">Adjust the vibration when double tapping the power button</string>
+    <string name="camera_double_tap_power_gesture_title">Enable double tap to launch</string>
+    <string name="camera_double_tap_power_gesture_desc">Double tap on the power button to launch right lockscreen target</string>
+
+    <!-- Restart SystemUI -->
+    <string name="restart_systemui">Restart SystemUI</string>
+
+
+    <!-- Battery stats reset -->
+    <string name="battery_stats_reset">Reset stats</string>
+    <string name="battery_stats_message">Battery history stats are going to be reset</string>
+    <string name="ok_string">Ok</string>
+
+    <!-- Sound settings -->
+    <string name="advanced_sound_title">Camera Shutter options</string>
+    <string name="sound_title">Sound</string>
+
+    <!-- Camera sound switch -->
+    <string name="camera_sounds_title">Camera shutter sound</string>
+    <string name="camera_sounds_summary">Enable system camera shutter sound</string>
+    <string name="camera_sound_warning_dialog_text">Disabling the camera shutter sound is illegal in some areas! Please check the applicable law in your country</string>
+
+    <!-- Dashboard columns -->
+    <string name="dashboard_columns_title">Dashboard Columns</string>
+    <string name="dashboard_columns_summary">Change the number of columns displayed in the dashboard</string>
+    <string name="dashboard_columns_dialog_title">Select dashboard columns</string>
+    <string name="dashboard_columns_default">One (default)</string>
+    <string name="dashboard_columns_two">Two</string>
+    <string name="dashboard_columns_three">Three</string>
+
+    <!-- Dashboard tileview double lines -->
+    <string name="dashboard_category">Dashboard settings</string>
+    <string name="dashboard_tileview_double_lines_title">Dashboard tile view title</string>
+    <string name="dashboard_tileview_double_lines_summary_on">Show dashboard tile titles in 1 line</string>
+    <string name="dashboard_tileview_double_lines_summary_off">Show dashboard tile titles in 2 lines</string>
+
+    <!-- Hide Lockscreen clock & date -->
+    <string name="hide_lockscreen_items_title">Lockscreen items</string>
+    <string name="hide_lockscreen_clock_title">Show lockscreen clock</string>
+    <string name="hide_lockscreen_date_title">Show lockscreen date</string>
+
+</resources>

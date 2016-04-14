@@ -1,0 +1,46 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
+    android:title="@string/status_bar_screen_title"
+    settings:keywords="@string/keywords_vm13" >
+
+         <PreferenceScreen android:key="vm12_logo"
+                          android:enabled="false"
+                          android:layout="@layout/vm13_logo_row" />
+
+         <!-- LockScreen Colors -->
+         <PreferenceScreen
+            android:key="lockscreen_colors"
+            android:title="@string/lockscreen_colors"
+            android:fragment="com.android.settings.vm13.LockscreenColors" 
+            />
+
+         <!-- LockScreen Weather -->
+         <PreferenceScreen
+            android:key="lockscreen_weather"
+            android:title="@string/lock_screen_weather_settings_title"
+            android:fragment="com.android.settings.vm13.LockScreenWeatherSettings" 
+            />
+ 
+         <!-- Clock widget -->
+         <PreferenceScreen
+            android:key="lock_clock"
+            android:fragment="com.android.settings.vm13.LockClock"
+            android:title="@string/lock_clock_title" 
+            />
+
+         <!-- LockClock Fonts -->
+         <PreferenceScreen
+            android:key="lock_clock_fonts"
+            android:title="@string/lock_clock_font_title"
+            android:layout="@layout/preference_lock_clock_fonts"
+            android:fragment="com.android.settings.vm13.fragments.LockClockFonts" />
+     
+         <!-- LockScreen Wallpaper -->
+         <PreferenceScreen
+            android:key="lockscreen_wallpaper_changer"
+            android:title="@string/lockscreen_wallpaper_title"
+            android:layout="@layout/preference_lockscreenwp"
+            android:fragment="com.android.settings.vm13.fragments.LockscreenSettings" 
+            />
+
+</PreferenceScreen>

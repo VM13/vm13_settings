@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2012-2014 NOSP Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
+    android:title="@string/tweaks_title"
+    settings:keywords="@string/keywords_vm13" >
+
+         <PreferenceScreen android:key="vm12_logo"
+                          android:enabled="false"
+                          android:layout="@layout/vm13_logo_row" />
+
+    <!-- Statusbar and notification Mods -->
+    <PreferenceScreen
+        android:key="status_bar_general_category"
+        android:title="@string/status_bar_screen_title" 
+        android:fragment="com.android.settings.vm13.vm13StatusbarSettings"
+        android:icon="@drawable/tnlogo" 
+        /> 
+ 
+    <!-- LockScreen Mods -->
+    <PreferenceScreen
+        android:key="lock_screen_general_category"
+        android:title="@string/lockscreen_title" 
+        android:fragment="com.android.settings.vm13.vm13LockscreenSettings"
+        android:icon="@drawable/tnlogo" 
+        />  
+ 
+    <!-- VM13 Extras -->
+    <PreferenceScreen
+        android:key="extras_general_category"
+        android:title="@string/extras_title" 
+        android:fragment="com.android.settings.vm13.vm13ExtrasSettings"
+        android:icon="@drawable/tnlogo" 
+        />  
+
+    <!-- Buttons -->
+    <PreferenceScreen
+        android:id="@+id/button_settings"
+        android:title="@string/button_pref_title"
+        android:fragment="com.android.settings.ButtonSettings"
+        android:icon="@drawable/ic_settings_buttons"
+        />
+
+       <!-- SuperSU -->
+       <PreferenceScreen
+           android:id="@+id/supersu_settings"
+           android:icon="@drawable/ic_settings_supersu"
+           android:title="@string/supersu_title">
+           <intent
+               android:action="android.intent.action.MAIN"
+               android:targetPackage="eu.chainfire.supersu"
+               android:targetClass="eu.chainfire.supersu.MainActivity" />
+
+       </PreferenceScreen>
+
+         <!-- PreferenceScreen
+            android:key="density_changer"
+            android:title="@string/lcd_density_title"
+            android:layout="@layout/preference_density"
+            android:fragment="com.dirtyunicorns.dutweaks.fragments.Density" / -->
+
+         <!-- System Tuner -->
+         <PreferenceScreen
+            android:key="systemuituner"
+            android:title="@string/systemuituner"
+            android:layout="@layout/preference_systemui_tuner" >
+            <intent
+                android:action="android.intent.action.MAIN"
+                android:targetPackage="com.android.systemui"
+                android:targetClass="com.android.systemui.tuner.TunerActivity" />
+         </PreferenceScreen>
+
+    <PreferenceScreen
+                android:id="@+id/app_circle_sidebar"
+                android:title="@string/app_circle_bar_title"
+                android:summary="@string/app_circle_sidebar_summary_real"
+                android:fragment="com.android.settings.vm13.AppCircleSidebar" />
+        
+        <!-- Navbar Edits -->
+        <PreferenceCategory
+        android:key="navigation_bar_general_category"
+        android:title="@string/navigation_bar_screen_title" >
+        <ListPreference
+            android:key="navigation_bar_height"
+            android:dialogTitle="@string/navigation_bar_height"
+            android:title="@string/navigation_bar_height"
+            android:entries="@array/navigation_bar_height_entries"
+            android:entryValues="@array/navigation_bar_height_values"
+            android:defaultValue="48"
+            android:persistent="false" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
